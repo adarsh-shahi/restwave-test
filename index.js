@@ -10,6 +10,6 @@ app.get("/user", (req, res) => {
 	res.json({ name: "adarsh", lastName: "shahi" });
 });
 
-app.listen(3001, () => {
-	console.log("server started at port 3001");
+app.listen(3000, () => {
+	console.log("server started at port 3000");
 });
